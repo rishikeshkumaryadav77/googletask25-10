@@ -1,0 +1,185 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main-container{
+  
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.gmail{
+  margin-right: 1rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.gmail:hover{
+  background-color: aquamarine;
+  /* border-top-left-radius: 70px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px; */
+  border-radius: 50%;
+  text-decoration: underline;
+  padding: 10px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  /* text-align: center; */
+}
+
+
+.image{
+  margin-right: 1rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  
+}
+
+.image:hover{
+  background-color: aquamarine;
+  border-radius: 50%;
+  text-decoration: underline;
+  padding: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 0px;
+}
+.flask-icon{
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+.flask-icon:hover{
+  background-color: aquamarine;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 0px;
+  
+ 
+}
+.apps-icon{
+  font-size: 1.2rem;
+}
+
+.apps-icon:hover{
+  background-color: aquamarine;
+  border-radius: 50%;
+  padding: 10px;
+  
+  
+}
+.mail-icon{
+  
+ font-size: 1.2rem;
+ /* outline: 5px dashed black; */
+ padding: 0.1rem;
+ outline: 2px solid gray;
+  margin-left: 10px;
+  border-radius: 50px;
+}
+
+.mail-icon:hover{
+  background-color: aquamarine;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 0px;
+}
+
+@media screen and (width < 500px) {
+  .apps-icon, .flask-icon, .image, .gmail, .mail-icon{
+  font-size: 0.8rem;
+  
+  }
+}
+
+.mail-images-container{
+  display: flex;
+  justify-content: end;
+  padding: 1.2rem;
+  /* align-items: center; */
+  position: ;
+}
+/* .google-img{
+  
+} */
+
+ 
+.google-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.google-img{
+  width: 30%;
+}
+
+
+.search-container{
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 1px 8px 3px;
+  border-radius: 12px;
+  padding: 8px;
+  margin: 3rem;
+
+}
+
+input{
+  width: 100%;
+  height: 2rem;
+  border: none;
+  outline: none;
+}
+.search-container{
+  display: flex;
+  width: 50%;
+}
+
+.mic{
+ height: 1rem;
+ margin-right: 5px;
+}
+
+.camera{
+  height: 1rem;
+}
+
+.search-icon{
+  width: 2rem;
+  height: 1rem;
+}
+
+.plus-container{
+  text-align: center;
+  width: 100%;
+}
+
+.plus-icon{
+  padding: 15px;
+  font-size: 3rem;
+  
+}
+
+.plus-icon:hover{
+  background-color: azure;
+  border-radius: 40px;
+  
+}
+
+.add-content{
+  font-size: 1.5rem;
+  font-weight: 600;
+  
+}
+
+@media screen and (width < 500px) {
+  .add-content, .plus-icon{
+    font-size: 0.9rem;
+  }
+}
