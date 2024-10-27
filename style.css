@@ -8,8 +8,8 @@
   
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  width: 100vw;
+  /* height: 100vh;
+  width: 100vw; */
 }
 
 .gmail{
@@ -108,12 +108,13 @@
 
  
 .google-container{
-  display: flex;
+  display: flex; 
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width: 100%;
+  /* text-align: center; */
+ /* height: 100vh;
+  width: 100vw; */
 }
 .google-img{
   width: 30%;
@@ -123,8 +124,8 @@
 .search-container{
   display: flex;
   align-items: center;
-  box-shadow: 2px 1px 8px 3px;
-  border-radius: 12px;
+  box-shadow: 1px 1px 5px 1px;
+  border-radius: 20px;
   padding: 8px;
   margin: 3rem;
 
@@ -167,7 +168,7 @@ input{
 }
 
 .plus-icon:hover{
-  background-color: azure;
+  background-color: green;
   border-radius: 40px;
   
 }
